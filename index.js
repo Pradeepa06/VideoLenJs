@@ -18,9 +18,9 @@ ipcMain.on ( ' video : submit ' , ( event , path ) = > {
 
 ffmpeg.ffprobe ( path , ( err , metadata ) = > {
  
-<!--- Prints in the terminal console.log ( ' Video duration is : ' , metadata .format . duration ) ;  -->
+/* Prints in the terminal console.log ( ' Video duration is : ' , metadata .format . duration ) ;  
 
-<!--Prints in the browser  -->
+Prints in the browser  */
 
 mainWindow.webContents.send ( ' video : metadata ' , metadata.format.duration) ; 
 } ) ;
