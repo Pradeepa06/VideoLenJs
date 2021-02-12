@@ -8,7 +8,7 @@ let mainWindow;
 
 app.on( ' ready ' ( ) = > {
 
-<!--  console.log ( 'App is now ready' ) ; -->
+/* console.log ( 'App is now ready' ) ; */
 
 mainwindow = new BrowserWindow ( { } );
  
